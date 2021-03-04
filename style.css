@@ -112,3 +112,11 @@
     width: 70%;
 }
 /*CHIUSURA PARTE CENTRALE HEADER*/
+/*APERTURA FOOTER-HEADER*/
+#footer-header{
+    height: 50px;
+    background-color:lightgreen;
+    border-bottom: 3px solid lightgrey;
+    border-top: 3px solid lightgrey;
+}
+/*CHIUSURA FOOTER-HEADER*/
