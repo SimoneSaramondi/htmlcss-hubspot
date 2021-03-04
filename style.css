@@ -120,3 +120,102 @@
     border-top: 3px solid lightgrey;
 }
 /*CHIUSURA FOOTER-HEADER*/
+/*APERTURA MAIN*/
+/*APERTURA MAIN PRIMA PARTE*/
+.main-first-part{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    background-color: brown
+}
+#img-top-main{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: auto;
+}
+#primo-paragrafo-main{
+    width: 60%;
+    margin: auto;
+    background-color: blueviolet;
+}
+.sottosfondo-main-first-part{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background-color: bisque;
+}
+#sottosfondo-main-first-part-left{
+    width: 40%;
+    height: 100%;
+    background-color: aqua;
+    float: left;
+    padding: 10px;
+}
+#sottosfondo-main-first-part-right{
+    width: 50%;
+    height: 100%;
+    background-color:lightcyan;
+    float: right;    
+}
+#sottosfondo-main-first-part-left-img{
+    width: 50%;
+    height: 50%;
+    background-color: cadetblue;
+    margin: auto;
+}
+#sottosfondo-main-first-part-left-bottone{
+    width: 50%;
+    height: 30%;
+    padding: 10px;
+    background-color: lightpink;
+    margin: auto;
+}
+#sottosfondo-main-first-part-right{
+    padding: 10px;
+}
+#sottosfondo-main-first-part-right-titolo{
+    width: 80%;
+    height: 20%;
+    background-color: chartreuse;
+    border: 1px solid;
+}
+#sottosfondo-main-first-part-right-paragrafo{
+    width: 80%;
+    height: 20%;
+    background-color: chartreuse;
+    border: 1px solid;
+}
+#sottosfondo-main-first-part-right-insieme{
+    width: 80%;
+    height: 20%;
+    background-color: chartreuse;
+    border: 1px solid;
+}
+#sottosfondo-main-first-part-right-blocchi{
+    width: 80%;
+    height: 20%;
+    background-color: chartreuse;
+    border: 1px solid;
+}
+#sottosfondo-main-first-part-right-insieme-left{
+    width: 45%;
+    height: 100%;
+    background-color: lightskyblue;
+    border: 1px solid;
+    float: left;
+}
+#sottosfondo-main-first-part-right-insieme-right{
+    width: 45%;
+    height: 100%;
+    background-color: lightskyblue;
+    border: 1px solid;
+    float: right;
+}
+/*CHIUSURA MAIN PRIMA PARTE*/
+/*APERTURA MAIN SECONDA PARTE*/
+/*CHIUSURA MAIN SECONDA PARTE*/
+/*APERTURA MAIN TERZA PARTE*/
+/*CHIUSURA MAIN TERZA PARTE*/
+/*CHIUSURA MAIN*/
+
