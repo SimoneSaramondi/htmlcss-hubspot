@@ -4,25 +4,43 @@
     box-sizing: border-box;
 }
 /*HEADER*/
-header{
+.header-box{
     background-color: aquamarine;
 }
-.header-box{
-    width: 80%;
-    height: 50px;
-    margin: auto;
-    background-color: antiquewhite;
-}
+/*APERTURA PRIMO NAV*/
 #first-nav-left{
-    background-color: blue;
-    width: 200px;      
+    width: 200px;     
 }
 #first-nav-left ul{
     list-style-type: none;
 }
 #first-nav-left ul li{
-   /* display: inline-block;*/
     border: 1px solid;
-    width: 40%;
+    width: 45%;
+    height: 50px;
+    padding: 15px;
     float: left;
 }
+#first-nav-right{
+    width: 300px;  
+    float: right;    
+}
+#first-nav-right ul{
+    list-style-type: none;
+}
+#first-nav-right ul li{
+    border: 1px solid;
+    width: 30%;
+    height: 50px;
+    padding: 15px;
+    float: right;
+}
+.first-nav-box{
+    height: 50px;
+    background-color: antiquewhite;
+    width: 80%;
+    margin: auto;
+}
+/*CHIUSURA PRIMO NAV*/
+/*APERTURA SECONDO NAV*/
+/*CHIUSURA SECONDO NAV*/
