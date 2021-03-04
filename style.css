@@ -43,4 +43,38 @@
 }
 /*CHIUSURA PRIMO NAV*/
 /*APERTURA SECONDO NAV*/
+.second-nav-box{
+    height: 50px;
+    background-color: antiquewhite;
+    width: 80%;
+    margin: auto;
+}
+#second-nav-left{
+    width: 200px;
+    background-color: blue;
+}
+#second-nav-left ul{
+    list-style-type: none;
+}
+#second-nav-left ul li{
+    border: 1px solid;
+    width: 45%;
+    height: 50px;
+    padding: 15px;
+    float: left;
+}
+#second-nav-right{
+    width: 700px;  
+    float: right;
+}
+#second-nav-right ul{
+    list-style-type: none;
+}
+#second-nav-right ul li{
+    border: 1px solid;
+    width: 12%;
+    height: 50px;
+    padding: 15px;
+    float: right;
+}
 /*CHIUSURA SECONDO NAV*/
