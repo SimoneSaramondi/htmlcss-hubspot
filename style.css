@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*HEADER*/
+header{
+    background-color: aquamarine;
+}
+.header-box{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+#first-nav-left{
+    background-color: blue;
+    width: 200px;      
+}
+#first-nav-left ul{
+    list-style-type: none;
+}
+#first-nav-left ul li{
+   /* display: inline-block;*/
+    border: 1px solid;
+    width: 40%;
+    float: left;
+}
