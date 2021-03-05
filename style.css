@@ -20,16 +20,26 @@ nav{
     height: 100%;
     display: inline-block;
 }
-.blocchi .left{
-    width: 30%;
-    border: 1px solid ;
+.blocchi ul li{
+border: 1px solid;
+list-style-type: none;
+line-height: 60px;
+}
+.blocchi ul li.left{
     float: left;
+    width: 40%;
 }
 .blocchi.dx{
     float: right;
 }
-.blocchi .right{
-    width: 33%;
-    border: 1px solid ;
+.blocchi ul li.right{    
+    width: 33.3%;
+    float: left;
+}
+.sfondo.secondo-nav{
+    background-color:lightpink;
+}
+.blocchi ul li.right.secondo{    
+    width: 20%;
     float: left;
 }
