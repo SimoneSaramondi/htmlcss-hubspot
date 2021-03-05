@@ -58,7 +58,6 @@ nav{
 }
 .widther{
     width: 80%;
-    background-color: bisque;
     margin: auto;
 }
 .blocchi {
@@ -85,9 +84,6 @@ line-height: 60px;
     width: 33.3%;
     float: left;
 }
-.sfondo.secondo-nav{
-    background-color:lightpink;
-}
 .blocchi ul li.right.secondo{    
     width: 20%;
     float: left;
@@ -104,9 +100,8 @@ line-height: 60px;
 #main-nav .widther{
     width: 40%;
     height: 80%;
-    background-color: blue;
     float: left;
-    margin-left: 10%;
+    margin-left: 85px;
 }
 #main-nav .widther ul{
     height: 300px;
