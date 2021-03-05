@@ -20,9 +20,12 @@ nav{
     height: 100%;
     display: inline-block;
 }
+li{
+    list-style-type: none;
+}
 .blocchi ul li{
 border: 1px solid;
-list-style-type: none;
+
 line-height: 60px;
 }
 .blocchi ul li.left{
@@ -42,4 +45,23 @@ line-height: 60px;
 .blocchi ul li.right.secondo{    
     width: 20%;
     float: left;
+}
+#main-nav{
+    height: 350px;
+    background-color: blueviolet;
+}
+#main-nav .widther{
+    width: 40%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+    margin-left: 10%;
+}
+#main-nav .widther ul{
+    height: 300px;
+    padding: 20px;
+}
+#main-nav .widther ul li{
+    height: 25%;    
+    border: 1px solid;
 }
