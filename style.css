@@ -117,9 +117,40 @@ main{
     float: left;
     border: 1px solid;
     height: 500px;
-    width: 30%;
-    
+    width: 30%;    
 }
 #divisore{
     margin: 0 5% 0 5%
 }
+.row div ul li{
+    border: 1px solid;
+    margin-top: 10px;
+}
+.row div ul li img{
+    width: 40%;
+    position: relative;
+    left: 30%;
+}
+.row div ul li h2{
+    text-align: center;
+}
+.row div ul li p{
+    text-align: center;
+}
+.row div ul li hr{
+   padding: 10px;
+}
+.row div ul li h3{
+    text-align: center;
+ }
+ .row div ul li ul li{
+    border: 1px solid;
+ }
+ .row div ul li button{
+    width: 60%;
+    height: 50px;
+    position: relative;
+    left: 20%;
+    border-radius: 5px;
+    
+ }
