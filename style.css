@@ -163,7 +163,6 @@ section li{
 }
 .grow{
     height: 500px;
-    background-color:lightskyblue;
 }
 .grow #left{
     float:left;
@@ -183,13 +182,19 @@ section li{
     float: left;  
     width: 25%;
 }
+#right img{
+    width: 150px;
+}
 footer{
     background-color: midnightblue;
-    height: 500px;
+    height: 350px;
+}
+#woman img{
+    float: right;
+    width: 300px;
 }
 .colum{
     width: 25%;
-    border: 1px solid;
     float: left;
     color: grey;
 }
@@ -199,19 +204,22 @@ footer{
 .colum ul li{
     margin: 8px 0;
 }
-.language ul{
-    background-color: aquamarine;    
-}
-.language ul li{    
-    border: 1px solid;        
+.colum button{
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px transparent;
 }
 .language-title{
-    border: 1px solid;
     width: 10%;
     float: left;
 }
 .language-title a{
     text-align: center;
+}
+.language div{
+    position: relative;
+    left: 200px;
 }
 .division{
     float:left;
@@ -233,4 +241,5 @@ footer a{
 }
 .first{
     color: white;
+    font-size: large;
 }
