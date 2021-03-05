@@ -3,6 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+div#hormenu {
+    width: 90%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+div#hormenu li
+{
+    width:100%;
+    float:left;
+}
+div#hormenu a
+{
+    display: block;
+    padding: 0;
+    color: #000;
+    text-decoration: none;
+}
+div#hormenu a:hover
+{
+    background-color: #000033;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+div#hormenu li ul
+{
+display: none
+}
+div#hormenu li:hover ul
+{
+    display: block;
+    position: absolute;
+    z-index:1;
+    width:100px;
+    padding: 0;
+    margin: 0 0 0 -1px;
+    background: white;
+}
+div#hormenu li li{ 
+    border:none;
+    width:150px; 
+}
+div#hormenu li li a{ 
+    padding:2px 2px 2px 10px; 
+}
 .sfondo.primo-nav{
     background-color: lightskyblue;
     border-bottom: 1px solid lightgrey ;
@@ -102,6 +148,10 @@ main{
     float: left;
     width: 40%;
 }
+#left ul{
+    position: relative;
+    left: 20%;
+}
 .white #left li{
     border: 1px solid;
 }
@@ -110,8 +160,30 @@ main{
     float: right;
     width: 60%;
 }
+#left img{
+    width: 150px;
+}
+#left button{
+    height: 50px;
+    width: 30%;
+    position: relative;
+    left: 10px;
+    margin-top: 10px;
+}
 .white #right li{
     border: 1px solid;
+    margin: 10px 0;
+}
+#CRM li{
+    width: 50%;
+    float: left;
+}
+#CRM hr{
+    margin: 10px;
+}
+#contact li{
+    width: 33.3%;
+    float:left
 }
 .color{
     background-color: blue;
