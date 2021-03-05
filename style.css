@@ -161,8 +161,76 @@ section li{
     width: 25%;
     float: left
 }
-.hot{
-    height: 10px;
-    background-color: blue;
+.grow{
+    height: 500px;
+    background-color:lightskyblue;
 }
-
+.grow #left{
+    float:left;
+    border: 1px solid;
+    width: 40%;
+}
+.grow #right{
+    float:right;
+    border: 1px solid;
+    width: 60%;
+}
+.grow #right li{
+    border: 1px solid;    
+}
+.grow #right li ul li{
+    border: 1px solid;  
+    float: left;  
+    width: 25%;
+}
+footer{
+    background-color: midnightblue;
+    height: 500px;
+}
+.colum{
+    width: 25%;
+    border: 1px solid;
+    float: left;
+    color: grey;
+}
+.colum ul{
+    margin: 20px 0;
+}
+.colum ul li{
+    margin: 8px 0;
+}
+.language ul{
+    background-color: aquamarine;    
+}
+.language ul li{    
+    border: 1px solid;        
+}
+.language-title{
+    border: 1px solid;
+    width: 10%;
+    float: left;
+}
+.language-title a{
+    text-align: center;
+}
+.division{
+    float:left;
+}
+.division.first{
+    width: 80%;
+}
+.division.second{
+    width: 10%;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+.division.first p{
+    position: relative;
+    right: 325px;
+    color:gray;
+}
+.first{
+    color: white;
+}
