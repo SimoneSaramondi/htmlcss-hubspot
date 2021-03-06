@@ -28,9 +28,8 @@ div#hormenu a:hover
     color: #FFFFFF;
     text-decoration: none;
 }
-div#hormenu li ul
-{
-display: none
+div#hormenu li ul{
+    display: none
 }
 div#hormenu li:hover ul
 {
@@ -51,7 +50,7 @@ div#hormenu li li a{
 }
 .sfondo.primo-nav{
     background-color: lightskyblue;
-    border-bottom: 1px solid lightgrey ;
+    border-bottom: 2px solid lightgrey ;
 }
 nav{
     height: 60px;
@@ -65,20 +64,54 @@ nav{
     height: 100%;
     display: inline-block;
 }
+.left img{
+    position: relative;
+    top: 10px;
+}
 li{
     list-style-type: none;
 }
 .blocchi ul li{
-border: 1px solid;
-
-line-height: 60px;
+    line-height: 60px;
 }
 .blocchi ul li.left{
     float: left;
-    width: 40%;
+    width: 25%;
+}
+.pricing{
+    margin: 0 -15px;
+}
+.blocchi ul li.left #hormenu{
+    border-right: 1px solid lightgrey;
 }
 .blocchi.dx{
     float: right;
+    width: 45%;
+    padding: 0 5px;
+    text-align: center;
+}
+.right #Log-in{
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    color: orangered;
+    border-radius: 5px;
+    border-color: orangered;
+}
+.right img{
+    width: 15%;
+    position: relative;
+    top: 6px;
+    left: 30px;
+    color: lightseagreen;
+}
+.right #GetHub{
+    height: 40px;
+    width: 150px;
+    background-color: orangered;    
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: white;
 }
 .blocchi ul li.right{    
     width: 33.3%;
