@@ -124,12 +124,27 @@ li{
 #main-nav{
     height: 500px;
     background-image: url(img/jumbotron.png);
-   background-size: cover;
+    background-size: cover;
     background-position-y:bottom;
     background-position-x: right;
     background-repeat: no-repeat;
 }
-
+.widther h1{
+    font-size: 50px;
+}
+.widther #Marketing{
+    padding-top: 30px;
+}
+#main-nav .widther button{
+    height:60px;
+    width: 200px;
+    background-color: orangered;
+    color: white;
+    position: relative;
+    top: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
 #main-nav .widther{
     width: 40%;
     height: 80%;
@@ -141,50 +156,51 @@ li{
     padding: 30px 50px ;
 }
 #main-nav .widther ul li{
-    height: 30%;    
-    border: 1px solid;
+    height: 40%;
 }
-
-
-
 main{
     background-color: lightgray;
 }
 .main-top{
     width: 60%;
     margin: auto;
-    border: 1px solid;
 }
 .main-top ul{
     padding-top: 35px;
-}
-.main-top ul li{
-    border: 1px solid;
 }
 .main-top ul li img{
     width: 40%;
     position: relative;
     left: 25%;
 }
+.main-top p{
+    padding-bottom: 20px;
+}
+.main-top h2{
+    text-align: center;
+    margin: 5px 0 20px 0;
+}
 .white{
     background-color: white;
     height: 300px;
     padding: 40px;
+    border-radius: 5px;
 }
 .white #left {
-    border: 1px solid;
     float: left;
     width: 40%;
+}
+.white #left button{
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid transparent;
 }
 #left ul{
     position: relative;
     left: 20%;
 }
-.white #left li{
-    border: 1px solid;
-}
 .white #right {
-    border: 1px solid;
     float: right;
     width: 60%;
 }
@@ -199,7 +215,6 @@ main{
     margin-top: 10px;
 }
 .white #right li{
-    border: 1px solid;
     margin: 10px 0;
 }
 #CRM li{
@@ -213,8 +228,12 @@ main{
     width: 33.3%;
     float:left
 }
+#contact i{
+    color: orangered;
+    border: 1px solid;
+    border-radius: 50%;
+}
 .color{
-    background-color: blue;
     height:500px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -224,9 +243,16 @@ main{
     border: 1px solid;
     float: left;
     width: 30%;
+    border-radius: 5px;
 }
 #divisore{
     margin: 0 5% 0 5%;
+}
+#divisore #secondo img{
+    width: 150px;
+}
+#terzo img{
+    width: 110px;
 }
 .color img{
     width: 40%;
