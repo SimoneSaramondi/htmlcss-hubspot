@@ -349,7 +349,7 @@ section img{
 }
 footer{
     background-color: midnightblue;
-    height: 350px;
+    height: 400px;
 }
 #woman img{
     float: right;
@@ -371,6 +371,7 @@ footer{
     padding: 10px;
     border-radius: 5px;
     border: 1px transparent;
+    color: midnightblue;
 }
 .language-title{
     width: 10%;
@@ -404,4 +405,8 @@ footer a{
 .first{
     color: white;
     font-size: large;
+}
+footer img{
+    width: 80px;
+    background-color: transparent;
 }
