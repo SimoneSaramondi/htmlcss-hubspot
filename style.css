@@ -179,6 +179,7 @@ main{
 }
 .main-top p{
     padding-bottom: 20px;
+    color: black;
 }
 .main-top h2{
     text-align: center;
@@ -215,7 +216,6 @@ main{
     height: 50px;
     width: 30%;
     position: relative;
-    left: 10px;
     margin-top: 10px;
 }
 .white #right li{
@@ -413,4 +413,10 @@ footer a{
 footer img{
     width: 80px;
     background-color: transparent;
+}
+footer .lung hr{
+    position: relative;
+    right: 310px;
+    top: -30px;
+    width: 1070px;
 }
