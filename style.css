@@ -48,8 +48,8 @@ div#hormenu li li{
     width:90px; 
 }
 .sfondo.primo-nav{
-    background-color:rgb(158, 207, 238);
-    border-bottom: 2px solid lightgrey ;
+    background-color:rgb(244, 249, 253);
+    border-bottom: 1px solid rgb(27, 40, 82) ;
 }
 .widther{
     width: 80%;
@@ -145,14 +145,14 @@ li{
 }
 .barra{
     height: 74px;
-    background-color: lightgreen;
+    background-color: rgba(175, 235, 228, 0.959);
     position: relative;
     top: 124px;
     border-top: 2px solid midnightblue;
     border-bottom: 2px solid midnightblue;
 }
 main{
-    background-color: lightgray;
+    background-color: rgb(244, 249, 253);
 }
 .main-top{
     width: 60%;
@@ -173,6 +173,7 @@ main{
 .main-top h2{
     text-align: center;
     margin: 5px 0 20px 0;
+    color: black;
 }
 .white{
     background-color: white;
@@ -279,7 +280,7 @@ button{
 }
 section{
     height: 400px;
-    background-color: aquamarine;
+    background-color: rgb(0, 172, 182);
 }
 section h1,p,h2{
     text-align: center;
@@ -342,7 +343,7 @@ section img{
     width: 150px;
 }
 footer{
-    background-color: midnightblue;
+    background-color: rgb(50, 73, 91);
     height: 400px;
 }
 #woman img{
@@ -364,7 +365,7 @@ footer{
     height: 40px;
     padding: 10px;
     border: 1px transparent;
-    color: midnightblue;
+    color: rgb(50, 73, 91);
 }
 .language-title{
     width: 10%;
