@@ -158,6 +158,14 @@ li{
 #main-nav .widther ul li{
     height: 40%;
 }
+.barra{
+    height: 74px;
+    background-color: lightgreen;
+    position: relative;
+    top: 423px;
+    border-top: 2px solid midnightblue;
+    border-bottom: 2px solid midnightblue;
+}
 main{
     background-color: lightgray;
 }
