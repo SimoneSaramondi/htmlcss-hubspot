@@ -60,8 +60,7 @@ div#hormenu li li{
     display: inline-block;
 }
 .left img{
-    position: relative;
-    top: 10px;
+    vertical-align: middle;
 }
 #sposta{
     position: relative;
@@ -207,8 +206,9 @@ button{
 #left button{
     height: 50px;
     width: 30%;
-    position: relative;
-    margin-top: 10px;
+    position: relative; 
+    top: 15px;
+    left: 15px;
 }
 .white #right li{
     margin: 10px 0;
