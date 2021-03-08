@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 div#hormenu {
     width: 90%;
     float: left;
@@ -101,13 +104,6 @@ li{
     color: orangered;
     border-radius: 5px;
     border-color: orangered;
-}
-.right img{
-    width: 15%;
-    position: relative;
-    top: 6px;
-    left: 30px;
-    color: lightseagreen;
 }
 .right #GetHub{
     height: 40px;
