@@ -343,7 +343,9 @@ section img{
 }
 .grow #numero{
     text-align: center;
-    margin-bottom: 20px;
+}
+.grow #left li{
+    margin-bottom: 10px;
 }
 .grow button{
     margin: 20px 0;
@@ -416,11 +418,19 @@ footer a{
 }
 footer img{
     width: 80px;
-    background-color: transparent;
+    
 }
 footer .lung hr{
     position: relative;
     right: 310px;
     top: -30px;
     width: 1070px;
+}
+#atlass{
+    position:relative;
+    top: 10px;
+}
+#classpad{
+    position:relative;
+    bottom: 5px;
 }
