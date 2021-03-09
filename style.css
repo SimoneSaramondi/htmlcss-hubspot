@@ -393,15 +393,18 @@ footer{
     width: 10%;
 }
 footer a{
-    color: gray;
+    color: rgb(180, 193, 206);
 }
 .division.first p{
     position: relative;
     right: 325px;
-    color:gray;
+    color:rgb(180, 193, 206);
 }
 .first{
     color: white;
+}
+footer .colum li:not(.first){
+    color: rgb(180, 193, 206);
 }
 footer img{
     width: 80px;    
