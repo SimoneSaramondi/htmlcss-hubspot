@@ -200,6 +200,9 @@ button{
     float: right;
     width: 60%;
 }
+.white #contact{
+    text-align: center;
+}
 #left img{
     width: 150px;
 }
