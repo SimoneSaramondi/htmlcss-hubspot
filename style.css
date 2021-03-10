@@ -235,8 +235,12 @@ button{
     border: 1px solid;
     border-radius: 50%;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 .color{
-    height:600px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
