@@ -393,7 +393,8 @@ footer a{
 }
 .division.first p{
     position: relative;
-    right: 325px;
+    right: 25px;
+    width: 250px;
     color:rgb(180, 193, 206);
 }
 .first{
