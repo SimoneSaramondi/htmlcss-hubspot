@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.color h2{
+    color: black
+}
 a{
     text-decoration: none;
     color: black;
@@ -233,7 +236,7 @@ button{
     border-radius: 50%;
 }
 .color{
-    height:500px;
+    height:600px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -242,6 +245,7 @@ button{
     float: left;
     width: 30%;
     border-radius: 5px;
+    height: 550px;
 }
 .color p{
     color: black;
@@ -250,18 +254,16 @@ button{
     background-color: orangered;
     color: white;
     border: 1px solid transparent;
+    width: 70%;
+    height: 50px;
+    position: relative;
+    left: 15%;
 }
 #divisore{
     margin: 0 5% 0 5%;
 }
-#divisore #secondo img{
-    width: 150px;
-}
-#terzo img{
-    width: 110px;
-}
 .color img{
-    width: 40%;
+    height: 200px;
     position: relative;
     left: 30%;
 }
@@ -270,12 +272,6 @@ button{
 }
 .color hr{
    margin: 20px;
-}
-.color button{
-    width: 70%;
-    height: 50px;
-    position: relative;
-    left: 15%;
 }
 .color li{
     margin: 10px;
